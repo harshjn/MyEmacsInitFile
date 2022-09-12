@@ -12,8 +12,10 @@ Installed Org-noter which helps in easily making org-mode notes for PDFs as well
 For tex rendering and opening, AUCTEX was installed. 
 Auctex is installed. Auctex commands such as "LaTeX-mode" are case sensitive.
 Added some hooks that can help remove this dependence and prevent errors. 
-<! No need for latex-preview-pane-mode
-No need for the magic-buffer mode as well >
+<!---
+No need for latex-preview-pane-mode
+No need for the magic-buffer mode as well.
+-->
 
 Always pass "pdflatex --synctex=1 main.pdf" in the shell for synctex to work. 
 Also set Latex-Extra as default minor mode to have extra tex features, such as, Tab to code-fold.
